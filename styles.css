@@ -1,4 +1,3 @@
-/* Reset e configurações gerais */
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +5,13 @@
     font-family: "Roboto", sans-serif;
 }
 
-/* Body ocupando 100% da largura */
+
 body {
     background-image: url(assets/img_BG02.jpg);
     background-color: #7482e0;
-    background-size: cover; /* Cobrir toda a área do body */
-    background-position: center; /* Centralizar a imagem */
-    background-attachment: fixed; /* Fixar a imagem ao rolar a página */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +19,7 @@ body {
     margin: 0;
 }
 
-/* Header */
+
 header {
     background-image: linear-gradient(to right top, #502da3, #5c2c9c, #652c96, #6c2d90, #722e8a, #712b8a, #712889, #702489, #681b8e, #5e1194, #51079a, #3f00a1);
     color: #fff;
@@ -30,16 +29,16 @@ header {
     margin-bottom: 20px;
 }
 
-/* Navegação */
+
 nav.menu {
     width: 100%;
     margin-bottom: 20px;
-    text-align: center; /* Centraliza os itens horizontalmente */
+    text-align: center; 
 }
 
 nav.menu ul {
     display: flex;
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; 
     list-style-type: none;
     padding: 0;
 }
@@ -60,7 +59,7 @@ nav.menu ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Container principal */
+
 .container {
     width: 100%;
     max-width: 800px;
@@ -71,7 +70,7 @@ nav.menu ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Imagem de perfil */
+
 .profile-img {
     max-width: 200px;
     border-radius: 50%;
@@ -79,13 +78,13 @@ nav.menu ul li a:hover {
     margin: 20px auto;
 }
 
-/* Seções */
+
 section {
     margin-bottom: 20px;
-    text-align: center; /* Centraliza o conteúdo das seções */
+    text-align: center; 
 }
 
-/* Listas */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -105,11 +104,11 @@ ul li:hover {
     background-color: #f8f9fa;
 }
 
-/* Formulário de contato */
+
 .contact-form {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto; 
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -143,7 +142,7 @@ ul li:hover {
     background-color: #ccc;
 }
 
-/* Rodapé */
+
 footer {
     background-image: linear-gradient(to right top, #502da3, #5c2c9c, #652c96, #6c2d90, #722e8a, #712b8a, #712889, #702489, #681b8e, #5e1194, #51079a, #3f00a1);
     color: #fff;
