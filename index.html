@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="Site de Portifólio.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, SEO">
+    <meta name="author" content="Rafael Corrêa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfólio de Rafael Corrêa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rafael Corrêa</h1>
+        <img src="assets/profileRc.jfif" alt="Foto de perfil de Rafael Corrêa" class="profile-img">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#skills">Hard Skills</a></li>
+                <li><a href="#soft-skills">Soft Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="sobre">
+        <section>
+            <h2>Sobre</h2>
+            <p>Olá! Sou Rafael Corrêa, um desenvolvedor web apaixonado por inovação e tecnologia. <br>Graduado em Jogos
+                Digitais pela Universidade Estácio de Sá, desenvolvi um conjunto de habilidades diversificadas que me
+                permitem abordar projetos com uma perspectiva única e criativa.</p><br>
+        </section>
+    </div>
+
+    <div class="container" id="formacao">
+        <section>
+            <h2>Formação</h2>
+            <p>Jogos Digitais - Universidade Estácio de Sá</p>
+        </section>
+    </div>
+
+    <div class="container" id="certificados">
+        <section>
+            <h2>Certificados</h2>
+            <p>Ti do Zero ao Pro - EBAC - Escola Britânica de Artes Criativas e Tecnologia.</p><br>
+            <p>Desenvolvedor Full Stack Python - EBAC - Escola Britânica de Artes Criativas e Tecnologia.</p>
+        </section>
+    </div>
+
+    <div class="container" id="skills">
+        <section>
+            <h2>Hard Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+                <li>jQuery</li>
+                <li>ReactJS</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>GML (Game Maker Language)</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="container" id="soft-skills">
+        <section>
+            <h2>Soft Skills</h2>
+            <p>Desenvolvimento de Soluções Eficientes: Foco em criar soluções eficientes e escaláveis, que atendam às necessidades dos usuários e superem as expectativas dos clientes.</p>
+        </section>
+    </div>
+
+    <div class="container" id="portfolio">
+        <br><br>
+        <section>
+            <h2>Portfolio</h2><br><br>
+            <img src="assets/arkanoid_img01.png" alt="Imagem do projeto Super Arkanoid" class="profile-img"><br>
+            <h3>Super Arkanoid.</h3>
+            <p>Clone do game clássico Super Arkanoid.</p>
+            <a href="https://github.com/rafaelscdev/SuperArkanoidClone" target="_blank">Ver projeto no GitHub</a>
+        </section>
+        <br>
+        <section>
+            <img src="assets/tarefas_img03.png" alt="API Lista de Tarefas" class="profile-img"><br>
+            <h3>Lista de Tarefas.</h3>
+            <p>Aplicação web de uma lista de tarefas.</p>
+            <a href="https://github.com/rafaelscdev/lista_de_tarefas" target="_blank">Ver projeto no GitHub</a>
+        </section>
+        <br>
+        <section>
+            <img src="assets/agenda_img03.png" alt="API Agenda de Contatos" class="profile-img"><br>
+            <h3>Agenda Telefonica.</h3>
+            <p>Aplicação web de uma agenda de contatos.</p>
+            <a href="https://github.com/rafaelscdev/agendaTelefonica" target="_blank">Ver projeto no GitHub</a>
+        </section>
+        <br>
+    </div>
+
+    <div class="container" id="contato">
+        <section>
+            <h2>Contato</h2>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rafael-corr%C3%AAa-0a61b326b/" target="_blank"><i class='bx bxl-linkedin'></i> Fale Comigo pelo Linkedin.</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/rafaelscdev" target="_blank"><i class='bx bxl-github' ></i> Conheça meu Github.</a>
+                    </li>
+                </ul>
+                
+                
+            </div>
+
+            <form class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rafael Corrêa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
